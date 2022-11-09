@@ -13,5 +13,4 @@ inputs = {'mean':args.mean, 'std_dev':args.std_dev, 'arr_len':args.arr_len}
 response = requests.post(host+'/sampling', data=inputs)
 # response = requests.get( host+'/sampling', params=inputs)
 output = response.json()
-
-print(output)
+#print(output)
