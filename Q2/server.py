@@ -13,7 +13,7 @@ def abort_msg(e):
     abort(500, errMsg)
 
 app = Flask(__name__)
-# api = Api(app)
+
 @app.route('/')
 def hello():
     return 'Hello TeaHouse'
