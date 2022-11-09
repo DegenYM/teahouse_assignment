@@ -21,4 +21,4 @@ inputs = {'token_address': token_address,
 
 host = 'http://127.0.0.1:22345'
 response  = requests.post(host + '/get_balance', data=inputs)
-print(response.json())
+#print(response.json())
